@@ -568,3 +568,115 @@ section.subscribe h1 {
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
 }
+section.contact {
+    margin: 100px;
+    position: relative;
+    text-align: center;
+    padding: auto;
+}
+section.contact h1 {
+    font-size: 60px;
+}
+section.contact h2 {
+    margin: 40px;
+    margin-bottom: 20px;
+}
+section.contact p {
+    font-size: 30px;
+    background: #FF0000;
+background: linear-gradient(to left, #FF0000 0%, #ffff00 50%, #FF0000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+section.contact img {
+    width: 50px;
+    transition: 0.6s ease;
+}
+section.contact a :hover {
+    transform: scale(1.1);
+}
+section.contact ul {
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+section.contact li {
+    margin: 15px;
+}
+.flex-container {
+    display: flex;
+    margin: 40px;
+  }
+.column {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+section.col1 img {
+    width: 350px;
+}
+section.col2 img {
+    width: 350px;
+}
+section.col3 p {
+    text-align: left;
+}
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    margin-bottom: 0px;
+    background: rgb(0,206,255);
+    background: linear-gradient(45deg, rgba(0,206,255,1) 0%, rgba(0,181,255,1) 5%, black 66%, rgba(0,164,255,1) 95%, rgba(0,206,255,1) 100%);
+    transition: transform .2s;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.07);
+}
+
+.header {
+height: auto;
+}
+
+.header hr {
+    border-style: solid;
+    border-width: 2px;
+    border-color: aqua;
+    margin: 50px;
+}
+
+.card img {
+    border-style: solid;
+    border-color: gold;
+    border-width: 2px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.chiefpatrons h1 {
+    color: white;
+}
+section.footer-logos img {
+    width: 40px;
+    transition: transform 0.3s ease;
+}
+section.logo-1 :hover img  {
+    transform: scale(1.2);
+}
+section.logo-2 :hover img  {
+    transform: scale(1.2);
+}
+section.footer-logos ul {
+    display: flex;
+}
+section.footer-logos li {
+    margin-right: 20px;
+} 
