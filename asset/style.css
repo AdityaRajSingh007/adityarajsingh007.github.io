@@ -34,7 +34,6 @@ a.underline {
     -webkit-text-fill-color: transparent;
 }
 .gradient-text {
-    /* background: -webkit-linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%); */
     background: linear-gradient(267.91deg, #FFE57F 9.35%, #FF7170 96.48%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -134,14 +133,11 @@ header {
 }
 .top {
     --offset: 50px; 
-  
     position: sticky;
     bottom: 20px;      
     margin-right: 10px; 
     place-self: end;
     margin-top: calc(100vh + var(--offset));
-  
-    /* visual styling */
     text-decoration: none;
     padding: 10px;
     font-family: sans-serif;
@@ -163,8 +159,7 @@ header nav li {
     padding-bottom: 20px;
 }
 header nav li.active {
-    border-bottom: 2px solid #d73a49;
-    /* border-bottom: 2px solid #FFE57F;  */
+    border-bottom: 2px solid #3a9bd7;
 }
 section.blog {
     width: 100%;
@@ -587,6 +582,10 @@ section.contact p {
 background: linear-gradient(to left, #FF0000 0%, #ffff00 50%, #FF0000 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+transition: transform 0.3s ease;
+}
+section.contact p:hover {
+    transform: scale(1.08);
 }
 section.contact img {
     width: 50px;
@@ -615,9 +614,17 @@ section.contact li {
   }
 section.col1 img {
     width: 350px;
+    transition: transform 0.3s ease;
 }
 section.col2 img {
     width: 350px;
+    transition: transform 0.3s ease;
+}
+section.col1 :hover img {
+    transform: scale(1.05);
+}
+section.col2 :hover img {
+    transform: scale(1.05);
 }
 section.col3 p {
     text-align: left;
